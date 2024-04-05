@@ -33,10 +33,10 @@ public class HtmlController {
 		return "html/exam03_block_inline_element";
 	}
 	
-	@RequestMapping("/myHouse")
-	public String myHouse() {
-		log.info("myHouse() 실행");
-		return "html/myHouse";
+	@RequestMapping("/uriHome")
+	public String uriHome() {
+		log.info("uriHome() 실행");
+		return "html/uriHome";
 	}
 	
 	
